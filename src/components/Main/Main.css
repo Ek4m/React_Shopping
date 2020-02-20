@@ -1,0 +1,163 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.Main{
+    margin: auto;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.Element{
+    padding: 6px;
+    width: 200px;
+    overflow: hidden;
+    min-width: 220px;
+    margin: 20px 5px;
+    -webkit-transition: 0.2s ease 0s;
+    -o-transition: 0.2s ease 0s;
+    transition: 0.2s ease 0s;
+    background-color: white;
+}
+.Element:hover,.Element:active{
+    -webkit-box-shadow: 0px 3px 6px black;
+            box-shadow: 0px 3px 6px black;
+}
+
+.Element img{
+    width: 85%;
+    -webkit-transform: perspective(500px) translateZ(-40px);
+            transform: perspective(500px) translateZ(-40px);      
+  height: 150px;
+    margin: auto;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    -webkit-transition: 0.4s ease 0.1s;
+    -o-transition: 0.4s ease 0.1s;
+    transition: 0.4s ease 0.1s;
+}
+ .Element img:hover{
+    -webkit-transform: perspective(800px) translateZ(0) ;
+            transform: perspective(800px) translateZ(0) ;
+}
+
+.backdrop_image{
+    z-index: 100;
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.backdrop_image img{
+    width: 40vw;
+    min-width: 230px;
+    min-height: 220px;
+    height: 30vw;
+    margin: auto;
+}
+
+.noproduct{
+    width:100vw;
+    height: 50vw;
+position: fixed;
+bottom: 0;
+opacity: 0.5;
+left: 0;
+}
+
+.calc{
+    width:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    height: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px 0;
+    -webkit-box-pack: space-around;
+        -ms-flex-pack: space-around;
+            justify-content: space-around;
+}
+
+.calc input{
+    width: 50px;
+    text-align: center;
+    height: 100%;
+    outline: none;
+    font-size: 1.3rem;
+    border: 1px solid lightblue;
+}
+
+.calc input::-webkit-outer-spin-button,
+.calc input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+  }
+
+.Element h3, .Element h2{
+    color: rgb(88, 88, 88);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.AddtoCart{
+    width: 86%;
+    margin: 20px auto;
+    border: none;
+    background-color: rgb(1, 105, 1);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+    -webkit-transition: 0.2s ease 0s;
+    -o-transition: 0.2s ease 0s;
+    transition: 0.2s ease 0s;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.AddtoCart:hover,.AddtoCart:active{
+    background-color: rgb(2, 190, 2);
+}
+
+@media(max-width:450px){
+    .Element{
+        width: 80%;
+        margin: 15px auto;
+    }
+}
+
+.plusminus{
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-transition: 0.2s ease 0s;
+    -o-transition: 0.2s ease 0s;
+    transition: 0.2s ease 0s;
+}
+.plusminus:hover,
+.plusminus:active{
+    color: whitesmoke;
+    background-color: green;
+}

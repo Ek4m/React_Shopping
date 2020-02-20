@@ -1,0 +1,82 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.Summary{
+    width: 250px;
+    position: fixed;
+    top: 70px;
+    right: 40px;
+    -webkit-box-shadow: 0px 1px 5px black;
+            box-shadow: 0px 1px 5px black;
+    background-color: rgb(255, 255, 255);
+}
+
+.Summary h3{
+padding: 5px;    
+color: rgb(59, 59, 59);
+}
+
+
+.no-product_added{
+    width: 100%;
+    margin: auto;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.SummaryTable{
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden scroll;
+}
+
+.sumElemDelete{
+    border-radius: 50px;
+    background-color: rgb(49, 49, 49);
+    padding: 2px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.2s ease 0s;
+    -o-transition: 0.2s ease 0s;
+    transition: 0.2s ease 0s;
+}
+
+.sumElemDelete:hover,
+.sumElemDelete:active{
+    background-color: red;
+}
+
+.SummaryElement{
+    width: 100%;
+    padding: 8px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 1px 0;
+    color: rgb(109, 109, 109);
+}
+
+.SummaryElement:hover,
+.SummaryElement:active{
+    background-color: rgb(200, 234, 245);
+}
+
+.SummaryElement:nth-child(1){
+    margin-top: 0;
+}
