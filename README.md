@@ -1,3 +1,10 @@
+Live demo: https://veggyelvin.000webhostapp.com/
+
+This project has some issues though. Every time I type smth for searching specific food,App fetches from database. So it canbe improved by fetching data as soon as window is loaded.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
