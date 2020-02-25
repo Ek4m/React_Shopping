@@ -1,6 +1,6 @@
 Live demo: https://veggyelvin.000webhostapp.com/
 
-This project has some issues though. Every time I type smth for searching specific food,App fetches from database. So it canbe improved by fetching data as soon as window is loaded.
+This project has some issues though. Every time I type smth for searching for specific food,App fetches from database. So it can be improved by fetching data as soon as window is loaded.
 
 
 
